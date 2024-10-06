@@ -1,6 +1,8 @@
 console.log(1)
 console.log(2);
-setTimeout(doSomething, 4000)
+setTimeout(()=> {
+    console.log('lazy logged')
+}, 4000)
 console.log(5)
 console.log(6)
 
