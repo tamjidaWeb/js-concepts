@@ -25,4 +25,9 @@ async function loadData (){
     console.log(data);
 }
 
+const taskLoader = async() =>{
+    const res = await fetch('');
+
+}
+
 loadData();
