@@ -9,3 +9,6 @@ const myLoader = () =>{
         }
     })
 }
+myLoader()
+.then (data => console.log('resolved data',data))
+.catch(err => console.log('rejected with value', err))
