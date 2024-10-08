@@ -4,9 +4,13 @@ console.log(2);
 //     console.log(3);
 // })
 
-setTimeout(() => {
-    console.log(3)
-}, 4000);
+// setTimeout(() => {
+//     console.log(3)
+// }, 4000);
 console.log(4);
 console.log(5);
 console.log(6);
+
+setInterval(()=>{
+    console.log('i m u')
+}, 2000)
