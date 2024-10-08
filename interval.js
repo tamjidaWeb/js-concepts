@@ -10,7 +10,10 @@ console.log(2);
 console.log(4);
 console.log(5);
 console.log(6);
-
+let num = 0;
 setInterval(()=>{
+    num ++;
+    // num = num +1;
+    // num +=1;
     console.log('i m u')
 }, 2000)
