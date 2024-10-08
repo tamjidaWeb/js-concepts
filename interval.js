@@ -11,9 +11,10 @@ console.log(4);
 console.log(5);
 console.log(6);
 let num = 0;
-setInterval(()=>{
+const clockId = setInterval(()=>{
     num ++;
     // num = num +1;
     // num +=1;
-    console.log('i m u')
+    clearInterval(clockId);
+    console.log(clockId, num)
 }, 2000)
