@@ -1,11 +1,11 @@
 const myLoader = () =>{
     return new Promise((resolve, reject) => {
-        const success = true;
-        if(success){
-            resolve(0.3)
+        const success = Math.random();
+        if(success <0.5){
+            resolve(success)
         }
         else{
-            reject (0.7)
+            reject (success)
         }
     })
 }
