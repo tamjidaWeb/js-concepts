@@ -15,6 +15,8 @@ const clockId = setInterval(()=>{
     num ++;
     // num = num +1;
     // num +=1;
-    clearInterval(clockId);
+    if(num > 6){
+        clearInterval(clockId);
+    }
     console.log(clockId, num)
 }, 2000)
